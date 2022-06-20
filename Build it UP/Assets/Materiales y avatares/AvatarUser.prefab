@@ -1,0 +1,264 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2273386245383884592
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7130059690010929276}
+  - component: {fileID: 1161291879214253555}
+  - component: {fileID: 5758137778954649412}
+  m_Layer: 0
+  m_Name: ItSeez3D Haircut
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7130059690010929276
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2273386245383884592}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8428633243439822114}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &1161291879214253555
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2273386245383884592}
+  m_Mesh: {fileID: 0}
+--- !u!23 &5758137778954649412
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2273386245383884592}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &3325443034442815057
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 108592373618776900}
+  - component: {fileID: 2459304617631227598}
+  m_Layer: 0
+  m_Name: ItSeez3D Head
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &108592373618776900
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3325443034442815057}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8428633243439822114}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &2459304617631227598
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3325443034442815057}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 0}
+  m_Bones: []
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 0}
+  m_AABB:
+    m_Center: {x: 0.0008183494, y: -0.007301148, z: 0.013474677}
+    m_Extent: {x: 0.092827335, y: 0.1276737, z: 0.10700925}
+  m_DirtyAABB: 0
+--- !u!1 &6353436863674008801
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8428633243439822114}
+  - component: {fileID: 3954847122653983984}
+  m_Layer: 0
+  m_Name: AvatarUser
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8428633243439822114
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6353436863674008801}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 108592373618776900}
+  - {fileID: 7130059690010929276}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3954847122653983984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6353436863674008801}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a199ca7cbcb1dad49840f4187f1741fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  code: offline_avatar_20220611180706_011c41d69e9447a0b72b0556cc7df332
+  haircuts:
+  - base\female_NewSea_J086f
+  - base\female_NewSea_J096f
+  - base\female_NewSea_J123f
+  - base\male_NewSea_J003m
+  - base\male_NewSea_J082m
+  - base\male_makehuman_short02
+  - facegen\facegen_afro
+  - facegen\facegen_balding
+  - facegen\facegen_bob
+  - facegen\facegen_bob_parted
+  - facegen\facegen_burr_cut
+  - facegen\facegen_classic_side_part
+  - facegen\facegen_classic_tapper
+  - facegen\facegen_corkscrew_curls
+  - facegen\facegen_cowlick
+  - facegen\facegen_cowlick2
+  - facegen\facegen_crew_cut
+  - facegen\facegen_crew_cut2
+  - facegen\facegen_crew_cut3
+  - facegen\facegen_cuckoo_nest
+  - facegen\facegen_curtained_hair
+  - facegen\facegen_flattop
+  - facegen\facegen_high_volume_brushed_up
+  - facegen\facegen_long_afro
+  - facegen\facegen_long_bob
+  - facegen\facegen_long_crimped
+  - facegen\facegen_long_dreads
+  - facegen\facegen_long_hair
+  - facegen\facegen_long_hair2
+  - facegen\facegen_man_bun
+  - facegen\facegen_man_bun2
+  - facegen\facegen_mid_length_messy
+  - facegen\facegen_mid_length_ruffled
+  - facegen\facegen_pigtails
+  - facegen\facegen_ponytail
+  - facegen\facegen_short
+  - facegen\facegen_short_bob_asymmetrical_bangs
+  - facegen\facegen_short_curls
+  - facegen\facegen_short_curls2
+  - facegen\facegen_short_parted
+  - facegen\facegen_side_french_braid
+  - facegen\facegen_straight_bob_bangs
+  - facegen\facegen_top_knot
+  - facegen\facegen_very_long
+  - facegen\facegen_wavy_shag
+  selectedHairstyle: 28
+  avgHaircutColor: {r: 0.1520464, g: 0.15, b: 0.15, a: 1}
+  predictedHaircutColor: {r: 0.17254902, g: 0.14117648, b: 0.13725491, a: 1}
+  headMeshRenderer: {fileID: 2459304617631227598}
+  hairMeshRenderer: {fileID: 5758137778954649412}
+  levelOfDetails: 0
